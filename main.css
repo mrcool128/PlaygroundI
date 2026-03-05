@@ -9,3 +9,18 @@ body {
 #intro {
     font-size: 20px;
 }
+#game1Logo {
+    height: 150px;
+    width: 300px;
+    border: rgb(202, 193, 193) solid 5px;
+    border-radius: 12px;
+    margin: 30px;
+    padding: 25px;
+}
+#game2Logo {
+    height: 200px;
+    width: 350px;
+    border: rgb(26, 24, 24) solid 8px;
+    border-radius: 12px;
+    margin: 30px;
+}

@@ -70,7 +70,7 @@ clickFold.addEventListener("click", function() {
         } else {
             paperImage.src = "paper.jpg"
         }
-        description.textContent = dimensions[key]
+        description.textContent = key + " - " + dimensions[key]
         description.innerHTML += "<br>" + descriptionList[key]
         foldSound.currentTime = 0;
         foldSound.play();
@@ -81,7 +81,7 @@ clickUnfold.addEventListener("click", function() {
     }
     let key = "A" + paper
     if (paper <= 20) {
-        description.textContent = dimensions[key]
+        description.textContent = key + " - " + dimensions[key]
         description.innerHTML += "<br>" + descriptionList[key]
         let paperImage = document.getElementById("paper");
         if (paper <= 6) {
