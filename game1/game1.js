@@ -68,7 +68,7 @@ clickFold.addEventListener("click", function() {
         if (paper <= 6) {
             paperImage.src = img[paper]
         } else {
-            paperImage.src = "paper.jpg"
+            paperImage.src = "Paper.jpg"
         }
         description.textContent = key + " - " + dimensions[key]
         description.innerHTML += "<br>" + descriptionList[key]
