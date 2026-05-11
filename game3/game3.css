@@ -1,0 +1,194 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.centerHorizontally {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display {
+  display: flex;
+  flex-direction: column;
+}
+#comment {
+  font-weight: bold;
+}
+
+#controls {
+  border: none;
+  font-size: 50px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+#accelerate {
+    border: none;
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+#restart {
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+#decelerate {
+    border: none;
+    margin: 10px;
+
+  width: 50px;
+  height: 50px;
+}
+#pause {
+    border: none;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+#rewind {
+    border: none;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+button {
+  width: 70px !important;
+  height: 70px !important;
+  background-color: white;
+    font-size: 50px;
+}
+#plant {
+  align-self: center !important;
+}
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+#popupContent {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+#popupContent button {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 5px solid #333;
+}
+#sunLightDisplay {
+  font-size: 25px;
+}
+#sunSlider {
+  margin: 0 auto;
+}
+#sunlight {
+  border-radius: 3px;
+  border: 5px solid #333;
+  padding: 15px;
+  width: 175px;
+  margin: 10px;
+}
+#timeModifier {
+    border: 5px solid #333;
+  border-radius: 3px;
+  padding: 15px;
+
+}
+#sunlightTitle {
+  font-size: 30px;
+  text-decoration: underline;
+  color: rgb(255, 62, 62);
+  font-weight: bold;
+}
+#DayNightCycle {
+  width: 150px;
+  height: auto;
+ image-rendering: pixelated;
+  position: absolute;
+  right: 250px;
+  top: 5px;
+
+}
+#goodSoil {
+  color: rgb(41, 188, 0)
+}
+#badSoil {
+  color: rgb(255, 57, 57);
+}
+#askPlant {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#askWater {
+  position: absolute;
+  top: 46%;
+  left: 46.81%;
+  border: none;
+}
+#water {
+  width: 120px;
+  height: auto;
+}
+button:active {
+  transform: scale(0.98);
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#controlsTitle {
+  font-size: 19px;
+  color: red;
+  font-weight: bold;
+  transform: translateX(-2%);
+}
+#timeSpeedDisplay {
+  font-size: 20px;
+
+    font-weight: bold;
+}
+#timeSpeed {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#temperatureDisplay {
+    border-radius: 3px;
+  border: 5px solid #333;
+  padding: 15px;
+  width: 175px;
+  margin: 10px;
+}
+#ihatecss {
+  display: flex;
+}
+#speeddisplay {
+  display: flex;
+}
+#plant {
+  image-rendering: pixelated;
+}

@@ -55,3 +55,6 @@ body {
 #helpbutton:hover {
     background-color: rgb(91, 91, 255);
 }
+#timerDisplay {
+    color:red;
+}

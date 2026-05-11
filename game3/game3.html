@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Plant Simulator">
+        <title>Plant Simulator</title>
+        <link rel="stylesheet" href="game3.css">
+        <script src="game3.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="centerHorizontally">
+            <img src="../assets/logo.png" alt="PlaygroundI Logo" width="400" id="logoPNG">
+        </div>
+            <img src="sun.png" id="DayNightCycle">
+        <div id="display" class="centerHorizontally">
+            <h2 id="titleDisplay">Plant is alive !</h2> 
+            <p id="comment"></p>
+            <div id="askPlant">
+            <img id="plant" src="plant_alive.png">
+            </div>
+            <button id="askWater"><img id="water" src="waterbucket.png"></button>
+            <div id="popup">
+  <div id="popupContent">
+    <h1>Choose your soil</h1>
+    <button id="goodSoil">Good Soil</button>
+    <button id="badSoil">Bad Soil</button>
+  </div>
+</div>
+        </div>
+        <div id="controls"> 
+            <div id="ihatecss">
+                <div id="sunlight">
+                    <div id="sunlightTitle">Sunlight</div>
+                    <span id="sunLightDisplay"></span>
+                    <input type="range" id="sunSlider" min="1" max="20" value="10">
+                </div>
+                <div id="temperatureDisplay">15° C</div>
+            </div>
+            <div id="timeModifier">
+            <div id="controlsTitle">Accelerate Decelerate &nbsp;&nbsp;&nbsp;Pause &nbsp;&nbsp; &nbsp;&nbsp; Restart</div>
+            <button id="accelerate">⏩</button>
+            <button id="decelerate">⬇️</button>
+            <button id="pause">⏸️</button>
+            <button id="restart">🔄</button>
+            <div id="speeddisplay">
+                <div id="timeSpeed">Speed : &nbsp;</div><div id="timeSpeedDisplay">1</div>
+            </div>
+            </div>
+            </div>
+    </body>
+
+</html>

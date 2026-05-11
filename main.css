@@ -1,13 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+footer {
+        position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+}
 #logo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.game {
+  transition: transform 0.2s ease;
+}
+.game:hover {
+      transform: scale(1.05);
+}
 #intro {
     font-size: 20px;
+}
+#games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #game1Logo {
     height: 150px;
@@ -21,6 +38,13 @@ body {
     height: 200px;
     width: 350px;
     border: rgb(26, 24, 24) solid 8px;
+    border-radius: 12px;
+    margin: 30px;
+}
+#game3Logo {
+    height: 210px;
+    width: 370px;
+    border: #1b872d solid 4px;
     border-radius: 12px;
     margin: 30px;
 }
