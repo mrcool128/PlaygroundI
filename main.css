@@ -25,14 +25,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 #game1Logo {
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 350px;
     border: rgb(202, 193, 193) solid 5px;
     border-radius: 12px;
     margin: 30px;
-    padding: 25px;
 }
 #game2Logo {
     height: 200px;
@@ -42,9 +44,16 @@ footer {
     margin: 30px;
 }
 #game3Logo {
-    height: 210px;
-    width: 370px;
+    height: 200px;
+    width: 350px;
     border: #1b872d solid 4px;
+    border-radius: 12px;
+    margin: 30px;
+}
+#game4Logo {
+    height: 200px;
+    width: 350px;
+    border: lightgrey solid 4px;
     border-radius: 12px;
     margin: 30px;
 }

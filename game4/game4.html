@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Approaching π">
+        <title>Approaching π</title>
+        <link rel="stylesheet" href="game4.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="centerHorizontally" id="logo">
+        <img src="../assets/logo.png" alt="PlaygroundI Logo" width="400" id="logoPNG">
+    </div>
+    <div id="title">
+        <h1>Approaching π</h1>
+    </div>
+    <div class="wrapper">
+    <div id="explanationPanel">
+        <p id="explanationText"></p>
+    </div>
+    <div id="spacer"></div>
+    <div class="viewport" class="centerHorizontally">
+        <div class="container" id="container">
+            <div class="slide div1" data-value="3.14">
+                <span class="approx">3.14</span>
+                <p class="description">It's widely used as the simplest approximation for π.</p>
+            </div>
+            <div class="slide div2"data-value="3.1428571428571428">
+                <span class="approx">\(\frac{22}{7}\)</span>
+                <p class="description">One of the oldest and most famous approximations of π.</p>
+                <p class="comparison">It's value is ~ 3.1428, accurate to 2 decimal places.</p>
+            </div>
+            <div class="slide div3" data-value="3.14156723022460">
+                <span class="approx">\(\frac{7^7}{4^9}\)</span>
+                <p class="description">A strange but surprisingly decent approximation of π.</p>
+                <p class="comparison">Built from powers, it's accurate up to 3 decimal places.</p>
+            </div>
+            <div class="slide div4" data-value="3.141509433962264">
+                <span class="approx">\(\frac{333}{106}\)</span>
+                <p class="description">Major improvement. Not that famous, but pretty accurate.</p>
+                <p class="comparison">~ 3.141509. Matches π to 4 decimal places.</p>
+            </div>
+            <div class="slide div5" data-value="3.141592920353982">
+                <span class="approx">\(\frac{355}{113}\)</span>
+                <p class="description">Legendary π approximation. It's really simple, but very accurate !</p>
+                <p class="comparison">It matches π to a whopping 6 decimal values : 3.141592 !</p>
+            </div>
+            <div class="slide div6" data-value="3.141592652582646">
+                <span class="approx">\(\sqrt[4]{\frac{2143}{22}}\)</span>
+                <p class="description">A highly unusual approximation of π. But, very, very accurate, comes from Ramanujan !</p>
+                <p class="comparison">~ 3.141592652, which matches the constant to 8 decimal places !</p>
+            </div>
+            <div class="slide div7" data-value="3.141592653805688">
+                <span class="approx">\(\frac{63}{25} \cdot \frac{17 + 15\sqrt{5}}{7 + 15\sqrt{5}}\)</span>
+                <p class="description">Probably the only π approximation that uses \(\sqrt{5}\) </p>
+                <p class="comparison">Also it matches π to 9 decimal places. Fantastically long and cool. 3.1415926538</p>
+            </div>
+            <div class="slide div8" data-value="3.14159265364">
+                <span class="approx">\(\sqrt[193]{\frac{10^{100}}{11222.11122}}\)</span>
+                <p class="description">Probably the only π approximation that uses a Googol (10^100). And an 193th root.</p>
+                <p class="comparison">Value's about 3.1415926536. Pretty close to π.</p>
+            </div>
+            <div class="slide div9" data-value="15">
+                <span class="approx"> \(\frac{884279719003555}{2^{48}}\)</span>
+                <p class="description">Uses a bunch of random numbers and a power of 2 that somehow matches up to π. Super duper accurate</p>
+                <p class="comparison">3.141592653589793. Yeah, it matches it up to a ginormous, 15 decimal places !</p>
+            </div>
+            <div class="slide div10" data-value="pi">
+                <span class="approx10">\(\frac{\pi}{4} = \sum_{n=0}^{\infty} (-1)^n \frac{1}{2n+1}\)</span>
+                <p class="description">It's the sequence of Leibniz, invented around 1671-1674 by 2 mathematicians. It was already found by Mādhava, India in the XIV-XVth century. </p>
+            </div>
+            <div class="slide div11" data-value="pi">
+                <span class="approx11">\(\frac{1}{\pi}=\frac{2\sqrt{2}}{9801}\sum_{k=0}^{\infty}\frac{(4k)!(1103+26390k)}{(k!)^4 396^{4k}}\)</span>
+                <p class="description">Discovered by Ramanujan, around 1910, it's one of the coolest π approximations. It contains a sum, a factorial, and a suspicious amount of elegancy...</p>
+            </div>
+            <div class="slide div12" data-value="30">
+                <span class="approx12">\({\displaystyle {\frac {\ln(640320^{3}+744)}{\sqrt {163}}}}\)</span>
+                <p class="description">Pretty cool approximation of π, being invented by "unknown".</p>
+                <p class="comparison">It's the second best approximation of π, matching to a whopping THIRTY decimal places !</p>
+            </div>
+            <div class="slide div13" data-value="pi">
+                <span class="approx10">\(\pi = 3 + \frac{1^2}{6 + \frac{3^2}{6 + \frac{5^2}{6 + \cdots}}}\)</span>
+                <p class="description">Somehow, these random uses squared odd numbers in a fraction to converge to π. Not obvious, but works surprisingly well. Pretty neat either way.</p>
+            </div>
+            <div class="slide div14" data-value="pi">
+                <span class="approx">\(\int_{-\infty}^{+\infty} e^{-x^2}\,dx = \sqrt{\pi}\)</span>
+                <p class="description">Carl Gauss first found this abomination, arond the 1800's. It's the first time that an integral is used, and it makes the square root of π, which is suspiciously right...</p>
+            </div>
+            <div class="slide div15" data-value="pi">
+                <span class="approx">\(\int_{0}^{1} \frac{1}{\sqrt{1 - x^2}}\,dx = \frac{\pi}{2}\)</span>
+                <p class="description">Don't know who came up with this, but it was speculated that Euler, Leibniz, Newton or Ancient Grecs found this. It's a very cool integral, with more letters than numbers. </p>
+            </div>
+            <div class="slide div16" data-value="53">
+                <span class="approx11">\(\frac{\ln\left(5280^3 \left(236674 + 30303\sqrt{61}\right)^3 + 744\right)}{\sqrt{427}}\)</span>
+                <p class="description">Brutally complex combination of logs, powers, and nested square roots to approximate π with EXTREME precision.</p>
+                <p class="comparison">Despite its terrifying appearance, it matches π to a WHOPPING 53 decimal places !</p>
+            </div>
+            <div class="slide div17" data-value="pi">
+                <span class="approx">\(\pi = \sqrt{6 \sum_{k=1}^{\infty} \frac{1}{k^2}}\)</span>
+                <p class="description">Called Basel's Sequence Identity, it's a rather simple sequence while still being equal to π and being elegant. It initially was a problem from Basel in the 1600's, but Euler solved it in 1734.</p>
+            </div>
+            <div class="slide div18" data-value="pi">
+                <span class="approx13">\(\frac{\sin(\pi x)}{\pi x} = \prod_{n=1}^{\infty}\left(1 - \frac{x^2}{n^2}\right)\)</span>
+                <p class="descripton">Developped by Euler in the 1730's - 1740's, this behemoth uses trigonometric functions and infinite products to make a juste 1 constant : π.</p>
+            </div>
+            <div class="slide div19" data-value="pi">
+                <span class="approx13">\(\frac{\pi}{2} = \prod_{n=1}^{\infty} \frac{2n}{2n-1} \cdot \frac{2n}{2n+1}\)</span>
+                <p class="description">Named Wallis' Product, it's an infinite product through ratios of consecutive even and odd numbers. It's one of the earliest known infinite product formulas for π, discovered by John Wallis in the 17th century.</p>
+            </div>
+            <div class="slide div20" data-value="pi">
+                <span class="approx9">\(\frac{1}{\pi} = 12 \sum_{k=0}^{\infty}\frac{(-1)^k (6k)! \, (13591409 + 545140134k)}{(3k)! \, (k!)^3 \, 640320^{3k+\frac{3}{2}}}\)</span>
+                <p class="description">Chudnovsky Formula. Built from factorials, huge powers, and lots of random numbers, it converges extremely fast compared to most formulas. It's one of the longest π formulas ever seen.</p>
+            </div>
+            <div class="slide div21" data-value="161">
+                <span class="approx8">\(\begin{gather*}
+\frac{\ln \left((2u)^6 + 24\right)}{\sqrt{3502}} \approx \pi \\
+u = \left(a + \sqrt{a^2 - 1}\right)^2 \left(b + \sqrt{b^2 - 1}\right)^2 \left(c + \sqrt{c^2 - 1}\right) \left(d + \sqrt{d^2 - 1}\right) \\
+a = \frac{1}{2}(23 + 4\sqrt{34}), \quad b = \frac{1}{2}(19\sqrt{2} + 7\sqrt{17}) \\
+c = (429 + 304\sqrt{2}), \quad d = \frac{1}{2}(627 + 442\sqrt{2})
+\end{gather*}\)</span>
+                <p class="description">A formula that produces a surprisingly accurate approximation of π. Explore it. Question it. Don't trust it... (161 decimal places)</p>
+            </div>
+        </div>
+            </div>
+      <div class="precisionWrapper">
+
+    <p id="precisionText">0%</p>
+
+    <div class="precisionContainer">
+        <div id="bar"></div>
+    </div>
+
+</div>
+        </div>
+    <div id="containbutton">
+    <button onclick="next()" id="next">Next</button>
+    <button onclick="previous()" id="previous">Previous</button>
+    <button onclick="toggleExplanation()" id="explanationBtn">Explanation</button>
+</div>  
+</body>
+<script src="game4.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</html>

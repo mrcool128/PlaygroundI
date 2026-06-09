@@ -1,0 +1,186 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.precisionContainer {
+  width: 50px;
+  height: 600px;
+  border: 6px solid black;
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(230,230,230);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: -25px;
+
+}
+.precisionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  margin-right: 250px;
+  transform: translateY(-48px);
+}
+#precisionText {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+#explanationText {
+  font-size: 25px;
+}
+#explanationPanel {
+  width: 300px;
+  height: 600px;
+  padding: 15px;
+  background: rgb(240,240,240);
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+
+  transform: translate(100px, -10px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+#bar {
+  width: 100%;
+  height: 0px;
+  display: block;
+  background: linear-gradient(to top, red, orange, limegreen);
+  transition: height 0.5s ease;
+}
+.centerHorizontally {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title {
+    background-color: rgb(230, 224, 224);
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    text-decoration: underline;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+.viewport {
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 7px solid #121111;
+  margin: 25px auto;
+  transform: translateX(-25px)
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.6s ease;
+}
+
+.slide {
+  width: 800px;
+  flex: 0 0 800px; 
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(199, 199, 199);
+}
+.approx {
+  font-size: 80px;
+  color: red;
+  font-weight: bold;
+}
+.approx11 {
+  font-size: 45px;
+  color: red;
+  font-weight: bold; 
+}
+.approx9 {
+  font-size: 35px;
+  color: red;
+  font-weight: bold; 
+}
+.approx8 {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;  
+}
+.approx12 {
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+}
+.approx13 {
+  font-size: 60px;
+  color: red;
+  font-weight: bold;
+}
+.approx10 {
+  font-size: 70px;
+  color: red;
+  font-weight: bold;
+}
+.description {
+  font-size: 40px;
+  
+}
+.comparison {
+  font-size: 40px;
+}
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+#next {
+  background-color: rgb(0, 191, 0);
+}
+#previous {
+  background-color: rgb(255, 53, 53);
+}
+#explanationBtn {
+  background-color: rgb(69, 69, 255);
+}
+button:active {
+  transform: scale(0.98);
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+    opacity: 0.8;
+
+}
+#containbutton {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transform: translateX(-34px)
+}
