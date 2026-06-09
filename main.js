@@ -4,7 +4,7 @@ let info = "PlaygroundII stores your best scores and settings only in your brows
 let original = footer.innerHTML;
 
 footer.addEventListener("click", function () {
-    if (footer.innerHTML === original) {
+if (footer.innerHTML === original) {
         footer.innerHTML = info;
         footer.style.fontSize = "20px";
     } else {
