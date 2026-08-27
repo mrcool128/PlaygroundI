@@ -57,3 +57,10 @@ footer {
     border-radius: 12px;
     margin: 30px;
 }
+#game5Logo {
+    height: 200px;
+    width: 350px;
+    border: #ff0000 solid 4px;
+    border-radius: 12px;
+    margin: 30px;
+}

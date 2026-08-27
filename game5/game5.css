@@ -1,0 +1,101 @@
+body {
+      margin: 0;
+      background: #222;
+      display: flex;
+  flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+      font-family: sans-serif;
+    }
+
+    canvas {
+      background: #333;
+      border: 2px solid #fff;
+      display: block;
+    }
+
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    #container2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%
+    }
+    #rulesList,
+    #rulescurrentLevel {
+      width: 300px;
+      height: 700px;
+      overflow-y: auto;
+      margin: 20px;
+      background-color: #444;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      box-sizing: border-box;
+      padding: 16px;
+    }
+    .titlesTexts {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: red;
+      text-decoration: underline;
+    }
+    #rulesList .titlesTexts {
+      flex-shrink: 0;
+    }
+    .rulesCategory {
+      border: 1px solid #777;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      overflow: hidden;
+    }
+    .rulesCategoryButton {
+      width: 100%;
+      padding: 10px;
+      border: 0;
+      background: #555;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+      cursor: pointer;
+    }
+    .rulesCategoryButton:hover,
+    .rulesCategoryButton:focus-visible {
+      background: #666;
+    }
+    .rulesCategoryContent {
+      display: none;
+      padding: 8px 10px;
+      line-height: 1.35;
+      white-space: pre-line;
+    }
+    .rulesCategoryContent.open {
+      display: block;
+    }
+    .ruleEntry {
+      margin: 0 0 12px;
+    }
+    .ruleEntry:last-child {
+      margin-bottom: 0;
+    }
+    .ruleLevel {
+      color: #ff8080;
+      font-weight: bold;
+    }
+    .centerHorizontally {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
